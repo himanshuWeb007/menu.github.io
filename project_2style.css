@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: Century Gothic;
+}
+.main{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(food1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+}
+.centering{
+	color: white;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.centering h1{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+
+}
+.centering p{
+	margin-top: 20px;
+}
+.form_code{
+	text-align: center;
+}
+
+.form_code .food_name{
+	display: block;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto; 
+	margin-top: 25px;
+	border-radius: 40px;
+	padding: 15px;
+	border: none;
+	outline: none;
+
+}
+.form_code button{
+	width:40%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	background-color: powderblue;
+	color: blue;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 15px;  
+}
+
+/* Product Section*/
+.product{
+	width:80%;
+	margin: 8px;
+	margin-left:auto;
+	margin-right: auto; 
+}
+.product_item{
+	float: left;
+	width:30.33%;
+	margin-left: 35px;
+}
+.product_item: first-of-type{
+	margin-left: 0px;
+}
+
+
+
